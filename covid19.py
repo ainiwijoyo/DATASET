@@ -9,10 +9,6 @@ Original file is located at
 ## Data Selection
 """
 
-# Koneksikan ke Google Drive
-from google.colab import drive
-drive.mount('/content/drive')
-
 import pandas as pd
 import numpy as np
 pd.set_option("display.max_columns", None)
